@@ -16,7 +16,7 @@ const SocialLink = ({ link, socialMedia }: ButtonProps) => {
   return (
     <button
       onClick={() => handleClick(link)}
-      className="flex items-center justify-center gap-2 bg-grey-700 hover:bg-primary text-white w-full h-12 rounded-lg transition-colors duration-200 hover:cursor-pointer"
+      className="flex items-center justify-center gap-2 bg-grey-700 hover:bg-primary text-white w-full h-12 rounded-lg transition-colors duration-200 hover:cursor-pointer active:bg-primary"
     >
       <span className="font-bold">{socialMedia}</span>
     </button>
